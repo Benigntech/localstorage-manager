@@ -1,0 +1,34 @@
+{
+  "name": "localstorage-manager",
+  "version": "0.0.1",
+  "description": "an lightweight localstorage manager javascript library",
+  "main": "dist/localstorage-manager.min.js",
+  "scripts": {
+    "prod": "babel js/localstorage-manager.js --out-file dist/localstorage-manager.min.js --no-comments"
+  },
+  "repository": "https://github.com/lecturenotes/localstorage-manager.git",
+  "keywords": [
+    "localstorage",
+    "localstorage-manager",
+    "manager",
+    "javascript",
+    "lightweight"
+  ],
+  "author": "Santanu Prasad Sahoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lecturenotes/localstorage-manager/issues"
+  },
+  "homepage": "https://github.com/lecturenotes/localstorage-manager#readme",
+  "devDependencies": {},
+  "private": false,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
