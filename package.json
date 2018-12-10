@@ -1,12 +1,15 @@
 {
-  "name": "localstorage-manager",
-  "version": "0.0.1",
-  "description": "an lightweight localstorage manager javascript library",
+  "name": "js-localstorage-manager",
+  "version": "1.0.0",
+  "description": "A lightweight localstorage manager javascript library",
   "main": "dist/localstorage-manager.min.js",
   "scripts": {
     "prod": "babel js/localstorage-manager.js --out-file dist/localstorage-manager.min.js --no-comments"
   },
-  "repository": "https://github.com/lecturenotes/localstorage-manager.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lecturenotes/localstorage-manager.git"
+  },
   "keywords": [
     "localstorage",
     "localstorage-manager",
@@ -20,9 +23,7 @@
     "url": "https://github.com/lecturenotes/localstorage-manager/issues"
   },
   "homepage": "https://github.com/lecturenotes/localstorage-manager#readme",
-  "devDependencies": {},
-  "private": false,
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
